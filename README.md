@@ -1,10 +1,9 @@
 
-# SYS_NAME
+# FusionBazaar
 ![Static Badge](https://img.shields.io/badge/SHOW%20-%20domain?label=domain&color=yellow)
 ![semver](https://img.shields.io/badge/semver-0.0.0-blue)
-
 ![Static Badge](https://img.shields.io/badge/submodules%20-%20blue?logo=git)
-![Static Badge](https://img.shields.io/badge/docker%20%5B451xx%5D%20-%20blue?logo=docker)
+
 
 ![rating](https://img.shields.io/badge/prio-★★★★☆-purple) 
 
@@ -14,11 +13,11 @@
 
 [comment]: ![logo](./Assets/logo.png)
 
-![GitHub license](https://img.shields.io/github/license/swyss/FusionBazaar.svg)
-![GitHub release](https://img.shields.io/github/release/swyss/FusionBazaar.svg)
-![GitHub contributors](https://img.shields.io/github/contributors/swyss/FusionBazaar.svg)
-![GitHub issues](https://img.shields.io/github/issues/swyss/FusionBazaar.svg)
-![Coverage Status](https://coveralls.io/repos/github/swyss/FusionBazaar/badge.svg?branch=master)
+![GitHub license](https://img.shields.io/github/license/swyss/fusionbazaar.svg)
+![GitHub release](https://img.shields.io/github/release/swyss/fusionbazaar.svg)
+![GitHub contributors](https://img.shields.io/github/contributors/swyss/fusionbazaar.svg)
+![GitHub issues](https://img.shields.io/github/issues/swyss/fusionbazaar.svg)
+![Coverage Status](https://coveralls.io/repos/github/swyss/fusionbazaar/badge.svg?branch=master)
 
 A brief description of what this project does and who it's for.
 
@@ -73,32 +72,26 @@ Add additional notes about how to deploy this on a live system.
 
 ### Frontend
 
-* [VueJs](https://vuejs.org/) - The web framework used
-
-* [QUASAR](https://quasar.dev/) - The VueJs framework used
 
 ### Backend
 
-* [spring](https://spring.io/) - spring
 
 ### Database
-
-* [PostgreSQL](https://www.postgresql.org/) - The database system used
 
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/swyss/FusionBazaar/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/swyss/fusionbazaar/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/swyss/FusionBazaar/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/swyss/fusionbazaar/tags).
 
 ## Authors
 
 * swyss - *Initial work* - [swyss](https://github.com/swyss)
 
-See also the list of [contributors](https://github.com/swyss/FusionBazaar/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/swyss/fusionbazaar/contributors) who participated in this project.
 
 ## License
 
