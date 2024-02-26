@@ -1,0 +1,6 @@
+[submodule "src/FusionBazaarBackend"]
+	path = src/FusionBazaarBackend
+	url = https://github.com/swyss/FusionBazaarBackend.git
+[submodule "src/FusionBazaarFrontend"]
+	path = src/FusionBazaarFrontend
+	url = https://github.com/swyss/FusionBazaarFrontend.git
