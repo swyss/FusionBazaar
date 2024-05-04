@@ -2,45 +2,35 @@
   <q-layout view="hHh lpR fFr">
     <!--HEADER-->
     <q-header class="bg-primary text-white" elevated height-hint="98" reveal>
-      <!--ToolBar-->
-      <app-tool-bar></app-tool-bar>
-      <!--Tabs-->
-      <q-tabs align="left">
-        <q-route-tab label="Page One" to="/page1"/>
-        <q-route-tab label="Page Two" to="/page2"/>
-        <q-route-tab label="Page Three" to="/page3"/>
-      </q-tabs>
+      <!--ToolBar's-->
+      <header-tool-bar-top></header-tool-bar-top>
+      <header-tool-bar></header-tool-bar>
     </q-header>
-    <!--Drawer-->
+    <!--Drawer's-->
+    <app-drawer-left></app-drawer-left>
     <app-drawer-right></app-drawer-right>
     <!--CONTENT-->
     <q-page-container>
       <router-view/>
-      <button @click="log">{{ msg }}</button>
     </q-page-container>
     <!--FOOTER-->
     <q-footer class="bg-grey-8 text-white" elevated reveal>
-      <q-toolbar>
-        <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" alt="">
-          </q-avatar>
-          <div>Title</div>
-        </q-toolbar-title>
-      </q-toolbar>
+      <!--ToolBar's-->
+      <footer-tool-bar></footer-tool-bar>
     </q-footer>
 
   </q-layout>
 </template>
 
 <script setup>
-import AppDrawerRight from 'layouts/main/AppDrawerRight.vue'
-import AppToolBar from 'layouts/main/AppToolBar.vue'
+import AppDrawerLeft from 'layouts/main/drawer/AppDrawerLeft.vue'
+import AppDrawerRight from 'layouts/main/drawer/AppDrawerRight.vue'
+import HeaderToolBar from 'layouts/main/toolbar/HeaderToolBar.vue'
+import HeaderToolBarTop from 'layouts/main/toolbar/HeaderToolBarTop.vue'
+import FooterToolBar from 'layouts/main/toolbar/FooterToolBar.vue'
+//
 // variable
-const msg = 'Hello! ToolBar'
 
 // functions
-function log () {
-  console.log(msg)
-}
+
 </script>

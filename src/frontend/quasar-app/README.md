@@ -5,9 +5,7 @@ A Quasar Project
 ## Install the dependencies
 
 ```bash
-yarn
-# or
-npm install
+yarn install
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
@@ -26,8 +24,6 @@ yarn run eslint
 
 ```bash
 yarn lint
-# or
-npm run lint
 ```
 
 ### Build the app for production

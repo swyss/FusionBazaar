@@ -23,7 +23,7 @@ import { ref } from 'vue'
 const rightDrawerOpen = ref(false)
 
 // functions
-export function updateToggle () {
+export function updateToggleRight () {
   rightDrawerOpen.value = !rightDrawerOpen.value
 }
 </script>

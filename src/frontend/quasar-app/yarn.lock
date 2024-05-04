@@ -231,7 +231,7 @@
     vite "^2.9.13"
     webpack-merge "^5.8.0"
 
-"@quasar/extras@^1.16.4":
+"@quasar/extras@^1.16.11":
   version "1.16.11"
   resolved "https://registry.npmjs.org/@quasar/extras/-/extras-1.16.11.tgz"
   integrity sha512-sbTBHOA+Hi7ah0P6qSm+xfRXqwJ94ct3NKA3Lkq3iNPYuHD7VXbSWtP2eA7Cu9Fd0WjVoPbngf6yFGg46U3IfQ==
