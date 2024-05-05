@@ -1,6 +1,46 @@
 <template>
   <q-drawer show-if-above v-model="leftDrawerOpen" side="left" bordered>
-    <button @click="log">{{ msg }}</button>
+    <q-list padding>
+      <q-item clickable v-ripple>
+        <q-item-section avatar>
+          <q-icon name="o_inbox" />
+        </q-item-section>
+
+        <q-item-section>
+          Inbox
+        </q-item-section>
+      </q-item>
+
+      <q-item active clickable v-ripple>
+        <q-item-section avatar>
+          <q-icon name="o_star" />
+        </q-item-section>
+
+        <q-item-section>
+          Star
+        </q-item-section>
+      </q-item>
+
+      <q-item clickable v-ripple>
+        <q-item-section avatar>
+          <q-icon name="o_send" />
+        </q-item-section>
+
+        <q-item-section>
+          Send
+        </q-item-section>
+      </q-item>
+
+      <q-item clickable v-ripple @click="log">
+        <q-item-section avatar>
+          <q-icon name="o_drafts" />
+        </q-item-section>
+
+        <q-item-section>
+          Drafts
+        </q-item-section>
+      </q-item>
+    </q-list>
   </q-drawer>
 </template>
 

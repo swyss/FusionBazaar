@@ -1,20 +1,19 @@
 <template>
-  <div class="t_bar">
-  <q-toolbar>
-    <q-toolbar-title>
-      <q-avatar>
-        <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" alt="">
-      </q-avatar>
-      Title
-    </q-toolbar-title>
-    <q-btn dense flat icon="o_info" round @click="printInfo"></q-btn>
-    <q-btn dense flat icon="o_dark_mode" round @click="toggleDarkMode"></q-btn>
-  </q-toolbar>
-  </div>
+    <q-toolbar>
+      <q-toolbar-title class="q-pa-lg">
+        <q-avatar>
+          <img alt="" src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
+        </q-avatar>
+        Title
+      </q-toolbar-title>
+      <q-space></q-space>
+      <q-btn padding="sm md" dense flat square icon="bi-person-square"></q-btn>
+      <q-btn padding="sm" dense flat square icon="bi-info-circle" @click="printInfo"></q-btn>
+      <q-btn padding="sm" dense flat square icon="bi-moon-stars" @click="toggleDarkMode"></q-btn>
+    </q-toolbar>
 </template>
-
 <style scoped>
-.t_bar{height: 72px}
+
 </style>
 <script setup>
 import { useQuasar } from 'quasar'
@@ -26,6 +25,7 @@ const msg = 'Hello, from APP'
 function toggleDarkMode () {
   $q.dark.toggle()
 }
+
 function printInfo () {
   console.log(msg)
   console.log($q.version)
